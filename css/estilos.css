@@ -111,7 +111,7 @@ section p {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 45%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -146,6 +146,21 @@ section p {
 
 .section-ingredientes .logo-ingredientes {
   margin: 32px 0 32px 0; }
+
+.card {
+  border: none;
+  border-bottom: 15px; }
+
+.sub-productos h3 {
+  text-align: left; }
+
+.sub-productos h4 {
+  text-align: left;
+  font-weight: 600;
+  color: #5E5E5E; }
+
+.sub-productos p {
+  text-align: left; }
 
 .section-contacto p {
   text-align: center;
@@ -199,6 +214,11 @@ footer {
     footer a:hover {
       color: #9faeae; }
 
+.preguntas h3 {
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600; }
+
 @media (max-width: 576px) {
   .logo {
     align-items: center; }
@@ -233,6 +253,4 @@ footer {
     .prueba-img .middle {
       display: none; }
   .logo-ingredientes {
-    display: none; }
-  .card {
-    align-items: center; } }
+    display: none; } }

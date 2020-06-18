@@ -153,9 +153,23 @@ section{
     .logo-ingredientes{
         margin: 32px 0 32px 0;
     }
-    .card{
-        border: none;
-        border-bottom: 15px;
+}
+.card{
+    border: none;
+    border-bottom: 15px;
+}
+
+.sub-productos{
+    h3{
+        text-align: left;
+    }
+    h4{
+        text-align: left;
+        font-weight: 600;
+        color: $color-2;
+    }
+    p{
+        text-align: left;
     }
 }
 .section-contacto{
@@ -222,6 +236,13 @@ footer{
         &:hover{
             color: darken($color-3, 30%);
         }
+    }
+}
+.preguntas{
+    h3{
+        text-align: left;
+        font-size: 25px;
+        font-weight: 600;
     }
 }
 
