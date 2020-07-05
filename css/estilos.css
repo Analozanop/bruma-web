@@ -236,3 +236,36 @@ footer {
     max-width: 300px; }
   .preguntas h3 {
     text-align: center; } }
+
+@media (min-width: 575.98px) and (max-width: 786px) {
+  header .redes-sociales {
+    display: none; }
+  section h1 {
+    font-size: 50px; }
+  .section-index .imagen-portada {
+    width: 100%; }
+  .section-index .texto-img {
+    display: none; }
+  .section-index .petalos-flores {
+    max-width: 550px;
+    margin-bottom: 20px; }
+  .section-index .sombra-palmeras {
+    max-width: 550px; }
+  footer {
+    display: none; }
+  .section-productos .menu-bar-productos {
+    display: none; }
+  .section-productos h3 {
+    text-align: center; }
+  .section-productos p {
+    text-align: center; }
+  .section-ingredientes .logo-ingredientes {
+    max-width: 550px; }
+  .section-ingredientes .card {
+    max-width: 500px;
+    left: 20px; }
+  .section-nosotros .imagenes-hover {
+    max-width: 500px;
+    margin-left: 40px; }
+    .section-nosotros .imagenes-hover .prueba-img {
+      display: none; } }
